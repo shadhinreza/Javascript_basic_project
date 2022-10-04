@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: monospace;
+    background-color: aquamarine;
+}
+.form-control {
+    padding: 12px;
+}
+input:focus{
+    box-shadow: none !important;
+}
+.passwordHide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(247, 248, 243);
+    background-color: purple;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 5px 10px 10px rgba(1, 1, 1, 0.9);
+    position: relative;
+}
+.passwordHide span i{
+    color: rgb(10, 193, 7);
+    position: absolute;
+    right: 25px;
+    top: 27px;
+    
+}

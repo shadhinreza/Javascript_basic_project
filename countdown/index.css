@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Teko', sans-serif;
+    background-image: url('./backgroun.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    font-size: 4rem;
+}
+#countdown {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    align-items: center;
+}
+.dhms {
+    text-align: center;
+    padding-top: .5rem;
+    color: white;
+}
+.dhms > div {
+    width: 120px;
+    height: 120px;
+    font-size: 4rem;
+    background: rgb(143, 228, 143);
+    box-shadow: 3px 5px 0px inset;
+    border-radius: 5px;
+    padding-top: 18px;
+    margin-bottom: 15px;
+
+}
+.dhms > span {
+    font-size: 2rem;
+    background: rgb(4, 132, 124);
+    padding: 2px 15px;
+
+}

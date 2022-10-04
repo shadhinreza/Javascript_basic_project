@@ -1,0 +1,32 @@
+body{
+    background: rgb(245, 235, 235);
+}
+
+.inputbg{
+    height: 40px;
+    background: white;
+}
+.input1{
+    width: 50px;
+    margin-left: 50px;
+    margin-right: 45px;
+}
+
+.incomplete{
+    background: white;
+    height: auto;
+    text-align: center;
+    margin-right: 100px;
+}
+.completed{
+    background: white;
+    height: auto;
+    text-align: center;
+}
+.form-control{
+    width: 70%;
+}
+.checkbox1 {
+    margin-right: 10px;
+    margin-top: 5px;
+}
